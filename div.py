@@ -1,6 +1,9 @@
+start= int(input("Enter starting number:"))
+end= int(input("Enter ending number:"))
 
-for i in range(1 ,101):
+print(f"Numbers divisible by 5 between {start} and {end}")
+for i in range(start,end+1):
     if i % 5 == 0:
         print(i)
 
-print("All the numbers between 1 and 100 are :",i)
+
